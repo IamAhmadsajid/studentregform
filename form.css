@@ -1,0 +1,121 @@
+/* Name: Ahmad
+Roll no: 027
+Section: A 
+Class: BS-DFCS  */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.form-container {
+  width: 600px; 
+  background-color: #f2f2f2;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 50px 0px 50px 0px;
+}
+input[type="text"], select, textarea {
+  width: calc(97.9% - 22px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  width: calc(98% - 22px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="tel"] {
+  width: calc(98% - 22px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #45a049;
+}
+.error {
+  color: red;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus, input:focus {
+  outline: 1px solid blue;
+}
+
+input:required {
+  border-color: red; 
+}
+
+
+
+.stName {
+  display: inline-block;
+  width: 32.5%;
+}
+
+.stName label {
+
+  font-size: 14px;
+  font-weight: 100;
+
+}
+
+
+
+.inline-box {
+  display: inline-block;
+  width: 49%;
+  
+}
+
+
+label {
+  display: block;
+  width: 100%; 
+  text-align: left;
+  margin-bottom: 5px; 
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.labelsmall {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 0px !important;
+  margin-bottom: 10px;
+}
+
+.para {
+  margin-top: -15px;
+}
+
+input[type="reset"] {
+  float: right;
+  margin-right: 35px;
+}
